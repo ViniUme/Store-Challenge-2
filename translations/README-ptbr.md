@@ -1,6 +1,6 @@
 ## Traduções
     
-- [Português Brasileiro](https://github.com/ViniUme/Store-Challenge-2/blob/master/translations/README-ptbr.md)
+- [English](https://github.com/ViniUme/Store-Challenge-2/)
 
 <br>
 <img src="https://user-images.githubusercontent.com/66230638/151377043-2f4b676c-105f-435f-b90d-8dcb4d702bbc.png">
