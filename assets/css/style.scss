@@ -63,3 +63,53 @@ $black-light: #181818;
     min-width: 350px;
     margin: 0 10%;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+}
+.destaques{
+    font-size: 2em;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: $black-light;
+    margin: 1% 5%;
+}
+.text_frete{
+    max-width: 750px;
+    min-width: 300px;
+    margin: 1% 30px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: $gray;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.product-box{
+    width: 280px;
+    height: 280px;
+    background-color: $white-200;
+    margin: 20px;
+    position: relative;
+}
+.jordan{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
