@@ -6,7 +6,7 @@
 <img src="https://user-images.githubusercontent.com/66230638/151377043-2f4b676c-105f-435f-b90d-8dcb4d702bbc.png">
 
 ### About
-This project is a challange of <a href="https://discord.com/invite/QevDJqCzaY">Codelândia's</a> discord server. There are many challenges of Front-End. This challenge is to make a store like a layout avaliable on server, leaving responsive, creating posts and animations.
+This project is a challange of <a href="https://discord.com/invite/QevDJqCzaY">Codelândia's</a> discord server. There are many challenges of Front-End. This challenge is to make a store like a layout avaliable on server, leaving responsive, creating products and animations.
 
 <br>
 
