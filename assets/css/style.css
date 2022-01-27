@@ -133,14 +133,31 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 90%;
+  margin-bottom: 50px;
 }
 
-.product-box {
+.product_box {
+  display: block;
   width: 280px;
   height: 280px;
   background-color: #EBE9EA;
   margin: 20px;
   position: relative;
+  -webkit-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+  cursor: pointer;
+}
+
+.product_box:hover {
+  width: 310px;
+  height: 310px;
+  margin: 5px;
+  background-color: #bdbdbd;
+}
+
+.product_box:hover > .jordan {
+  width: 280px;
+  height: 168px;
 }
 
 .jordan {
@@ -152,5 +169,7 @@
   bottom: 0;
   left: 0;
   right: 0;
+  -webkit-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
 }
 /*# sourceMappingURL=style.css.map */

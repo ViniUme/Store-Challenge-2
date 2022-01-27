@@ -1,5 +1,6 @@
 $white: #F9F9F9;
 $white-200: #EBE9EA;
+$white-500: #bdbdbd;
 $gray: #474747;
 $black-light: #181818;
 
@@ -95,13 +96,27 @@ $black-light: #181818;
     align-items: center;
     flex-wrap: wrap;
     width: 90%;
+    margin-bottom: 50px;
 }
-.product-box{
+.product_box{
+    display: block;
     width: 280px;
     height: 280px;
     background-color: $white-200;
     margin: 20px;
     position: relative;
+    transition: all 150ms ease-in;
+    cursor: pointer;
+}
+.product_box:hover{
+    width: 310px;
+    height: 310px;
+    margin: 5px;
+    background-color: $white-500;
+}
+.product_box:hover > .jordan{
+    width: 280px;
+    height: 168px;
 }
 .jordan{
     width: 250px;
@@ -112,4 +127,5 @@ $black-light: #181818;
     bottom: 0;
     left: 0;
     right: 0;
+    transition: all 150ms ease-in;
 }
